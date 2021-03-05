@@ -1,0 +1,26 @@
+{
+  "name": "learn-vite",
+  "version": "1.0.0",
+  "description": "learn vite",
+  "bin": {
+    "learn-vite": "./bin/index.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GavinHe322/vite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GavinHe322/vite/issues"
+  },
+  "homepage": "https://github.com/GavinHe322/vite#readme",
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.0.7",
+    "koa": "^2.13.1",
+    "koa-static": "^5.0.0",
+    "magic-string": "^0.25.7",
+    "vue": "^3.0.7"
+  }
+}
