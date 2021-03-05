@@ -18,6 +18,7 @@
   "homepage": "https://github.com/GavinHe322/vite#readme",
   "dependencies": {
     "@vue/compiler-sfc": "^3.0.7",
+    "es-module-lexer": "^0.4.1",
     "koa": "^2.13.1",
     "koa-static": "^5.0.0",
     "magic-string": "^0.25.7",
