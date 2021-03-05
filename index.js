@@ -2,6 +2,7 @@ const Koa = require('koa')
 const serveStaticPlugin = require('./plugins/server/serveStaticPlugin')
 const rewriteModulePlugin = require('./plugins/server/rewriteModulePlugin')
 const moduleResolvePlugin = require('./plugins/server/moduleResolvePlugin')
+const vueServePlugin = require('./plugins/server/vueServePlugin')
 
 module.exports = function createServer() {
   const app = new Koa()
@@ -15,6 +16,8 @@ module.exports = function createServer() {
   const plugins = [
     // 重写模块路径 'vue' => '/@modules/vue
     rewriteModulePlugin,
+    // 解析 .vue 文件
+    vueServePlugin,
     // 导入模块
     moduleResolvePlugin,
     // 配置静态资源
