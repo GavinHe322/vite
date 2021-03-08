@@ -1,0 +1,14 @@
+{
+  "name": "create-app",
+  "version": "0.0.1",
+  "description": "vite-template",
+  "bin": {
+    "create-vite-app": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "gen": "./index.js"
+  },
+  "author": "gavin",
+  "license": "ISC"
+}
